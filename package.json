@@ -1,0 +1,48 @@
+{
+  "name": "gmnh-miyabi",
+  "version": "0.1.0",
+  "description": "GMNH Miyabi E-commerce",
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit",
+    "test": "playwright test",
+    "test:ui": "playwright test --ui",
+    "test:headed": "playwright test --headed",
+    "test:report": "playwright show-report"
+  },
+  "keywords": [
+    "agentic-os",
+    "autonomous"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@auth/prisma-adapter": "^2.11.0",
+    "@hookform/resolvers": "^5.2.2",
+    "@prisma/client": "^6.17.1",
+    "@types/bcryptjs": "^2.4.6",
+    "@types/jsonwebtoken": "^9.0.10",
+    "bcryptjs": "^3.0.2",
+    "jsonwebtoken": "^9.0.2",
+    "next": "^14.2.4",
+    "next-auth": "^4.24.11",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-hook-form": "^7.65.0",
+    "zod": "^4.1.12"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.56.0",
+    "@types/node": "^20.10.0",
+    "@types/react": "^18.2.73",
+    "@types/react-dom": "^18.2.25",
+    "eslint": "^8.54.0",
+    "eslint-config-next": "^14.2.4",
+    "tsx": "^4.7.0",
+    "typescript": "^5.8.3"
+  }
+}
